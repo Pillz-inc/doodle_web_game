@@ -1,4 +1,9 @@
-body { padding: 0; margin: 0 }
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('TemplateData/background.png'); /* Добавьте эту строку */
+    background-size: cover; /* Это убедится, что ваше изображение будет растянуто, чтобы заполнить весь элемент */
+}
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
