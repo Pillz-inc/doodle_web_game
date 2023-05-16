@@ -9,19 +9,13 @@
 </head>
 <body style="background: url('TemplateData/bg.png') center / cover; background-size: cover;">
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <img src="TemplateData/yourGif.gif" alt="GIF" />
-</div>
+<video autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;">
+    <source src="TemplateData/asd.mp4" type="video/mp4">
+</video>
 
 <div id="unity-container" style="position: absolute; width: 100%; height: 100%">
     <canvas id="unity-canvas" width=960 height=600 style="width: 100%; height: 100%"; "background: black"></canvas>
 
-    <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-            <div id="unity-progress-bar-full"></div>
-        </div>
-    </div>
 </div>
 <script>
     var container = document.querySelector("#unity-container");
